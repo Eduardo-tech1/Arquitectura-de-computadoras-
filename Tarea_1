@@ -1,0 +1,124 @@
+COMO SE DIVIDE UN DISCO DURO…
+Unidad de disco duro:
+Los discos duros se presentan recubiertos de una capa magnética delgada, habitualmente de óxido de hierro, y se dividen en unos círculos concéntricos cilindros (coincidentes con las pistas de los disquetes), que empiezan en la parte exterior del disco (primer cilindro) y terminan en la parte interior (último). Asimismo estos cilindros se dividen en sectores, cuyo número esta determinado por el tipo de disco y su formato, siendo todos ellos de un tamaño fijo en cualquier disco. Cilindros como sectores se identifican con una serie de números que se les asignan, empezando por el 1, pues el numero 0 de cada cilindro se reserva para propósitos de identificación mas que para almacenamiento de datos. Estos, escritos/leídos en el disco, deben ajustarse al tamaño fijado del almacenamiento de los sectores. Habitualmente, los sistemas de disco duro contienen más de una unidad en su interior, por lo que el número de caras puede ser más de 2. Estas se identifican con un número, siendo el 0 para la primera. En general su organización es igual a los disquetes. La capacidad del disco resulta de multiplicar el número de caras por el de pistas por cara y por el de sectores por pista, al total por el número de bytes por sector.
+Para escribir, la cabeza se sitúa sobre la celda a grabar y se hace pasar por ella un pulso de corriente, lo cual crea un campo magnético en la superficie. Dependiendo del sentido de la corriente, así será la polaridad de la celda. ara leer, se mide la corriente inducida por el campo magnético de la celda. Es decir que al pasar sobre una zona detectará un campo magnético que según se encuentre magnetizada en un sentido u otro, indicará si en esa posición hay almacenado un 0 o un 1. En el caso de la escritura el proceso es el inverso, la cabeza recibe una corriente que provoca un campo magnético, el cual pone la posición sobre la que se encuentre la cabeza en 0 o en 1 dependiendo del valor del campo magnético provocado por dicha corriente.
+Los componentes físicos de una unidad de disco duro son:
+LOS DISCOS (Platters)
+Están elaborados de compuestos de vidrio, cerámica o aluminio finalmente pulidos y revestidos por ambos lados con una capa muy delgada de una aleación metálica. Los discos están unidos a un eje y un motor que los hace guiar a una velocidad constante entre las 3600 y 7200 RPM. Convencionalmente los discos duros están compuestos por varios platos, es decir varios discos de material magnético montados sobre un eje central. Estos discos normalmente tienen dos caras que pueden usarse para el almacenamiento de datos, si bien suele reservarse una para almacenar información de control.
+LAS CABEZAS (Heads)
+Están ensambladas en pila y son las responsables de la lectura y la escritura de los datos en los discos. La mayoría de los discos duros incluyen una cabeza Lectura/Escritura a cada lado del disco, sin embargo algunos discos de alto desempeño tienen dos o más cabezas sobre cada superficie, de manera que cada cabeza atiende la mitad del disco reduciendo la distancia del desplazamiento radial. Las cabezas de Lectura/Escritura no tocan el disco cuando este esta girando a toda velocidad; por el contrario, flotan sobre una capa de aire extremadamente delgada(10 millonésima de pulgada). Esto reduce el desgaste en la superficie del disco durante la operación normal, cualquier polvo o impureza en el aire puede dañar suavemente las cabezas o el medio. Su funcionamiento consiste en una bobina de hilo que se acciona según el campo magnético que detecte sobre el soporte magnético, produciendo una pequeña corriente que es detectada y amplificada por la electrónica de la unidad de disco.
+EL EJE
+Es la parte del disco duro que actúa como soporte, sobre el cual están montados y giran los platos del disco.
+"ACTUADOR" (actuator)
+Es un motor que mueve la estructura que contiene las cabezas de lectura entre el centro y el borde externo de los discos. Un "actuador" usa la fuerza de un electromagneto empujado contra magnetos fijos para mover las cabezas a través del disco. La controladora manda más corriente a través del electromagneto para mover las cabezas cerca del borde del disco. En caso de una perdida de poder, un resorte mueve la cabeza nuevamente hacia el centro del disco sobre una zona donde no se guardan datos. Dado que todas las cabezas están unidas al mismo "rotor" ellas se mueven al unísono. Mientras que lógicamente la capacidad de un disco duro puede ser medida según los siguientes parámetros:
+Cilindros (cylinders)
+El par de pistas en lados opuestos del disco se llama cilindro. Si el HD contiene múltiples discos (sean n), un cilindro incluye todos los pares de pistas directamente uno encima de otra (2n pistas). Los HD normalmente tienen una cabeza a cada lado del disco. Dado que las cabezas de Lectura/Escritura están alineadas unas con otras, la controladora puede escribir en todas las pistas del cilindro sin mover el rotor. Como resultado los HD de múltiples discos se desempeñan levemente más rápido que los HD de un solo disco.
+Pistas (tracks)
+Un disco está dividido en delgados círculos concéntricos llamados pistas. Las cabezas se mueven entre la pista más externa ó pista cero a la mas interna. Es la trayectoria circular trazada a través de la superficie circular del plato de un disco por la cabeza de lectura / escritura. Cada pista está formada por uno o más Cluster.
+Sectores (sectors)
+Un byte es la unidad útil más pequeña en términos de memoria. Los HD almacenan los datos en pedazos gruesos llamados sectores. La mayoría de los HD usan sectores de 512 bytes. La controladora del H D determina el tamaño de un sector en el momento en que el disco es formateado. Algunos modelos de HD le permiten especificar el tamaño de un sector. Cada pista del disco esta dividida en 1 ó 2 sectores dado que las pistas exteriores son más grandes que las interiores, las exteriores contienen mas sectores.
+
+TIPOS DE SICOS DUROS Y SUS VELOCIDADES…
+Las clases de discos duros que existen se conocen como: disco duro SAS, el disco duro SCSI, el disco duro IDE, ATA, PATA; así mismo como los discos duros SATA y SATA 2. Y aquellos dispositivos externos como las memorias flash, memorias sd, entre otros.
+
+En la actualidad existen una gran cantidad de discos duros para computadora, mini computadoras, tablets, celulares, etc. No obstante los hay que constan de diversos elementos, medidas y capacidades. Esto incluye los discos identificados como memorias externas como las usb, micros sd.
+
+Existen 4 clases de discos duros y son:
+
+Disco duro SAS
+Disco duro SCSI
+Disco duro IDE, ATA y PATA
+Disco duro SATA y SATA 2
+SAS: Estos discos son muy solicitados para el empleo en servidores, es posible conectarlos hasta con 6 ó 7 metros de distancia y de ahí en adelante cubrir hasta 24 computadoras.
+
+SCSI: Estos discos poseen una interfaz muy pequeña y exige de un controlador para que opere.
+
+IDE, ATA y PATA: Cada clase de disco duro representa o quiere decir: IDE. Es la abreviatura de componente electrónico integrado. ATA. Es la abreviatura de tecnología avanzada de contacto. PATA. Es la abreviatura de tecnología paralela avanzada.
+
+SATA: Esta sigla significa tecnología avanzada de contacto. Y se distingue por funcionar con una velocidad cercana a los 150 megabytes por segundo.
+SATA 2: Este dispositivo dispone de mejor capacidad debido a que funciona hasta con 300 megabytes por segundo, lo que representa que su tiempo de respuesta es muy bueno. DISCO DURO SATA 2 se diferencia en comparación con el SATA es que realiza sus actividades a 300Megabytes/segundo.
+Las clases de discos duros con respecto al tipo de conexión son:
+Discos duros para computadora de escritorio SATA ( Sus siglas significan “Serial ATA”)
+Estas clases de discos duros, pertenecen a los de conexión SATA, y son de los modelos de discos duros que disponen las computadoras modernas. Se destacan por el tipo de conexión, gracias a que son un bus serie, lo cual es útil para la trasmisión de información. Son muy ágiles.
+Existen tres clases:
+SATA – 1: Alcanza una velocidad de hasta 150 Mb de transferencia.
+SATA – 2: Alcanza una velocidad de hasta 300 Mb de transferencia.
+SATA – 3: Alcanza una velocidad de hasta 600 Mb de transferencia, por su rendimiento es el más solicitado además de contar con una gran capacidad al mismo tiempo su tamaño es pequeño, con relación a los demás.
+
+TIPOS DE COMPUTADORAS
+Las grandes computadoras: Supercomputadoras
+Las supercomputadoras son un tipo de equipamiento informático diseñado con el propósito de procesar rápidamente enormes cantidades de información. Con el paso de los años la potencia de los procesadores que equipan a estas computadoras ha ido incrementándose hasta valores increíbles, y existe una feroz competencia por sus desarrolladores y fabricantes para que sus supercomputadora sea la más potente disponible en una determinada época. Las supercomputadoras pueden costar cientos de millones miles de dólares y consumir la energía suficiente como para abastecer decenas de casas.
+ 
+Otra característica de las supercomputadoras es la enorme cantidad de calor que provocan, de esta manera los fabricantes de estos equipamientos deben preocuparse por el sistema de refrigeración.
+Mainframes
+Se destinan a manipular cantidades inmensas de información de entrada, salida y almacenamiento. Los mainframes generalmente trabajan con terminales esparcidas en distintas áreas físicas y donde todo el procesamiento es realizado en este mainframe. Los mainframes actuales pueden costar millones de dólares y suelen ocupar salas enteras equipadas con infraestructura especial.
+
+Como ejemplo podemos citar una red de tiendas cuya base de datos es controlada por un mainframe y las demás tiendas acceden a los datos a través de terminales, de forma que el mainframe administra los requerimientos de entrada y salida de todas las terminales.
+Las Minicomputadoras
+Las minicomputadoras son un tipo de dispositivo que se encuentra en un nicho entre los mainframes y las microcomputadoras. Las minicomputadoras son un tercer tipo de computadora capaz de manipular mucha más datos de entrada y salida que los microcomputadoras, también llamadas computadoras personales,  aunque algunas minicomputadoras son destinadas a un único usuario, son capaces de controlar centenares de terminales.
+Las minicomputadoras representaron una solución más económica para las empresas que necesitan de una computadora con una capacidad de procesamiento mayor si carecían de capital o no querían invertir en un mainframe. Los principales fabricantes de estos equipamientos eran DELL, IBM y HP.
+El nombre “Minicomputadora” suele llegar a prestarse a confusión en la actualidad, pero es un término acuñado en los 60, donde la palabra “Mini” no significaba lo mismo que en la actualidad. Un ejemplo clásico de minicomputadoras es la serie AS/400, diseñada y fabricada por IBM. Con el correr del tiempo las minicomputadoras han ido desapareciendo debido fundamentalmente a la potencia de cálculo que podían ofrecer otros tipos de computadoras.
+Las estaciones de trabajo
+A pesar de que en su momento las estaciones de trabajo o Workstation, como también se las conoce, eran equipos que se utilizaban para tareas que requerían de altos niveles de potencia y estabilidad de proceso, lo cierto es que con el paso del tiempo, las computadoras personales, menos costosas, han alcanzado tal nivel de performance que llegaron a reemplazar a las Workstations en muchas de las tareas que se realizaban con este tipo de computadora.
+Esto produjo que las ventas de estaciones de trabajo decayeran paulatinamente, y comenzaran a utilizarse generalmente en ámbitos como el de la investigación y el desarrollo, es decir ámbitos bien especializados, en donde toda la potencia de este tipo de hardware se pudiera aprovechar por completo.
+Las computadoras personales
+Las computadoras personales, también llamadas microcomputadoras o micros es un tipo de computadora pequeña, pero que en la actualidad ofrece gran capacidad de procesamiento y alta performance. El término PC se acuño en el año 1981, cuando IBM lanzó al mercado la  “Personal Computer”, de donde se deriva la abreviatura PC.
+Como el proyecto de la IBM PC alcanzó éxito y fama, fue clonado y producido en serie por infinidad de fabricantes, conservando la arquitectura de proceso original, la cual es utilizada hasta el día de hoy.
+Las computadoras de escritorio
+Las computadoras personales pueden ser encontradas en los más diversos formatos, pero el tipo de computadora personal más utilizado en la actualidad es la computadora de escritorio, la cual podemos encontrar en todo tipo de escenario y realizando las más variadas tareas.
+Otro tipo de computadora personal, pero con diferente arquitectura, son las producidas por Apple, productos que han alcanzado fama mundial debido a su estabilidad y calidad de construcción.
+Otro tipo de computadora personal, también de escritorio, son las llamadas “All-inOne”, un dispositivo que reúne características de diferentes tecnologías, como la posibilidad de usar una pantalla táctil.
+
+Las computadoras portátilesOtro tipo de computadora personal es la llamada notebook, también llamada laptop, la cual básicamente es una computadora con rendimiento y capacidad similares a una computadora de escritorio, pero en un formato que puede ser transportable, debido a que utilizan un monitor del tipo LCD o LED, además de componentes mucho más pequeños y eficientes en términos de uso de energía, un punto más que necesario ya que la principal fuente de alimentación de las computadoras portátiles es una batería.
+En este mismo grupo también se encuentran las llamadas Netbooks, que aunque han ido desapareciendo del mercado, todavía se comercializan. Este tipo de computadora es diferente a la notebook, ya que aunque también las netbook son portátiles, la diferencia de performance y tamaño con la notebook es notoria. Esto se debe fundamentalmente a que la Netbook fue diseñada como un tipo de computadora portable de bajo costo.
+ 
+Mencionamos más arriba en este artículo que las computadoras pueden diseñarse en cualquier formato, sin embargo la mayoría de las personas siempre asociarán la computación con un tipo específico de formato.
+Sin embargo, lo cierto es que por ejemplo,  tanto los smartphones como las tablets podrían ser considerados como otro tipo de computadoras portátiles, ya que son dispositivos que funcionan prácticamente de la misma manera, salvo que con otra forma.
+ 
+Lo mismo sucede con los dispositivos del tipo wearables, una tecnología moderna que permite integrar mecanismos electrónicos que podamos vestir como una prenda o accesorio más. Un ejemplo más que claro de ello son los llamados smartwatches, dispositivos que pueden realizar tareas como comprobar el correo, usar las redes sociales y hacer muchas otras labores directamente desde la muñeca del usuario.
+ 
+Por último, en la industria automotriz, en los últimos años hemos visto como una computadora se hace cargo de la mayoría de las funciones de un automóvil, o como todo tipo de mecanismos, grandes y pequeños, han dejado de ser controlados por humamos a ser controlados por medio de una computadora.
+EN QUE SE DIVIDE EL PROCESADOR DE UNA COMPUTADOR
+
+Unidad de control
+Es la parte con que se desactiva o activa los componentes del procesador. Con este se logra ejecutar y a la vez interpretar todas las instrucciones que están guardadas en la memoria principal.
+Registros
+Son zonas temporales de almacenamiento que se utilizan durante la ejecución de las instrucciones.
+Unidad aritmética y lógica
+Esta parte es la que tiene el rol de ejecutar todas las operaciones de transformación de datos, como son las operaciones matemáticas.
+Buses de entradas y salidas
+Se trata de un sistema digital encargado de la transferencia de información de un componente a otro de un ordenador, o crea la conexión entre dos o mas computadores.
+Encapsulado
+Se encuentra cubriendo la oblea de silicio, el cual brinda una mayor protección y consistencia, impidiendo así cualquier deterioro.
+Chipset
+Se trata de una serie de chips que se encargan de mantener controlada las funciones del equipo.
+Motor de ejecución
+Considerada como parte importante del procesador, el cual concentra las unidades de FPU y las de ALU.
+Unidad FPU
+Se designa por sus siglas  la unidad de punto flotante, la cual actúa como coprocesador matemático, el cual se encarga de las sumas y multiplicaciones.
+Unidad ALU
+Refiere a la unidad aritmético lógica, la cual se encarga de todas las operaciones que se efectúan con números enteros.
+Zócalo
+Refiere al sitio donde es colocado el procesador, el cual crea una conexión directa con el resto del equipo.
+Memoria cache
+Se refiere a la zona donde los datos de mayor frecuencia del computador son almacenados.
+Puertos
+Se trata del medio por donde se comunica el procesador al mundo externo. Este se considera como un medio análogo a la línea de teléfono. El procesador presenta diversos números de puerto a través de los cuales se conecta cualquier circuito de la computadora, estos números son usados por el puerto como si fuese un número de teléfono para así llamar a aquellos circuitos especiales.
+Pepelines
+Son unidades de cálculo especializadas.
+Fetch
+Se encarga de enviar todas las instrucciones al decodificador.
+Prefetch
+Refiere a una pre-lectura de la instrucción que se efectúa desde la memoria principal.
+Decodificador
+Este se encarga de evaluar que tipo de instrucción es y las tareas que se deben de realizar.
+Controlador de memoria
+Se trata de un elemento localizado en la parte interna del procesador que controla la comunicación entre la memoria RAM y el micro.
+Memoria cache
+Se trata de una memoria que trabaja a gran velocidad, con la cual se tiene acceso a los datos que serán usados en ciertas operaciones sin requerir ayuda de la memoria RAM. Este proceso de obtención de datos se realiza en un tiempo muy corto.
+Coprocesador matemático
+También llamado como Unidad de coma flotante o FPU. Esta parte del procesador es la que realiza diversos tipos de cálculos matemáticos. Es considerada junto a la memoria, a la unidad de control, al bus de datos y a los registros como la parte lógica del procesador.
+Disipador de calor
+Con este el procesador logra mantenerse a una perfecta temperatura, garantizando un máximo rendimiento. El calor en el procesador se produce por la pérdida de energía que ocurre en el, lo cual se transforma en calor.
+Ejecución superescalar
+Es un componente añadido recientemente el cual logra ejecutar varias instrucciones a la vez por ciclo de reloj.
